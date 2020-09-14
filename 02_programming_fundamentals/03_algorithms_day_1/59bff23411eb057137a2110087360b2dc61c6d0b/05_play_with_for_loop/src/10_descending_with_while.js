@@ -14,3 +14,14 @@ const litteralDigits = [
   "eight",
   "nine",
 ];
+let stout = litteralDigits.length;
+
+//while (stout > 0 ){
+//stout = stout - 1;
+//console.log(litteralDigits[stout]);
+//}
+
+for(let i = litteralDigits.length -1; i >= 0 ; i -- ){
+
+  console.log(litteralDigits[i]);
+}
