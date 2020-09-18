@@ -36,7 +36,6 @@ const moves = {
   ],
 };
  
-
 clear();
 console.log("Welcome to the ShiFuMi!");
 Object.keys(moves).forEach((moveName, index) => {  
@@ -51,6 +50,7 @@ const reverseLine = (line) => {
       } else if (char === "("){
         return ")";
       }  
+       
       return char; 
     })
     .join("");
