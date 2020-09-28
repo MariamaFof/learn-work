@@ -6,7 +6,7 @@ class OrangeTree extends Tree {
 //   constructor(age: number, height: number, alive: boolean,oranges: string[]){
 //      super(age);
 //      this.oranges = oranges;
-  //}
+  //}a&éqq<<je s§"z(zaa('qwszbbf  "é'a  tzq<<<  w<sqWWQQX "))
     isAlive(): boolean{
         if (this.age < 50){
             return true;

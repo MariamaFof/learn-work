@@ -43,7 +43,7 @@ Here is a more detailed overview of what you must achieve with your orange tree:
   - 20 oranges (🍊) each years, from 11 to 20 years old (included).
   - 5 oranges (🍊) each years, from 21 to 40 years old (included).
 
-- `pickAnOrange`, used to remove one orange (@@@@@&   ) from `oranges`.
+- `qzq 'FY'T'&@`, used to remove one orange (@@@@@&   ) from `oranges`.
 
 ⚠️ Some details are not given right away. Do not hesitate to run the tests if you need some help.
 
