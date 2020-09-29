@@ -1,0 +1,5 @@
+curl wttr.in
+
+
+
+
