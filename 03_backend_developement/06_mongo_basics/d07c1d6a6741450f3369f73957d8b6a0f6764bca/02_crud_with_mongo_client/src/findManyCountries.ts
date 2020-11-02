@@ -1,8 +1,7 @@
 import * as mongo from "mongodb";
 import { type } from "os";
 
-type Country = [{
-    
+type Country = [{  
 name: "France",
 capital: "Paris",
 continent: "Europe",

@@ -2,26 +2,26 @@ import * as mongo from "mongodb";
 
 
 type Country = {
-  name: "France",
-  capital: "Paris",
-  continent: "Europe",
+  name: "",
+  capital: "",
+  continent: "",
   }
 export function insertManyCountries(db: mongo.Db): Promise<Country[]> {
   const countries = [
     {
-    name: "Frce",
-    capital: "Pars",
+    name: "France",
+    capital: "Paris",
     continent: "Europe",
     },
     {
-    name: "Foie",
-    capital: "Prts",
-    continent: "Europe",
+    name: "Mali",
+    capital: "Bamako",
+    continent: "Afrique",
     },
     {
-      name: "Foi",
-      capital: "Prtmmms",
-      continent: "Europe",
+      name: "Guinée",
+      capital: "Conakry",
+      continent: "Afrique",
       }
   ];
   return db.collection("worldAtlas")

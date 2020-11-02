@@ -1,5 +1,5 @@
 import * as mongo from "mongodb";
-import {deleteManyCountries} from "./deleteManyCountries"
+import { findManyCountries } from "./findManyCountries";
 import { showCollections } from "./showCollections";
 
 const databaseUrl =
@@ -11,7 +11,7 @@ mongo.MongoClient.connect(databaseUrl, options).then((client) => {
   const db = client.db();
 
   // You can test your query function by placing it here instead of `showCollections`
-  deleteManyCountries(db)
+ findManyCountries(db)
     .then((result) => console.log(result))
     .then(() => client.close());
 });

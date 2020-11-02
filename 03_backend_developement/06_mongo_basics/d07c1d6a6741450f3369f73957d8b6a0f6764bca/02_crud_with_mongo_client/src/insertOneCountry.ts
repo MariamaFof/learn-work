@@ -1,10 +1,10 @@
 import * as mongo from "mongodb";
 
 type Country = {
-  name: "France",
-  capital: "Paris",
-  continent: "Europe",
-  }
+name: "Allemangne",
+capital: "Berlin",
+continent: "Europe",
+}
 export function insertOneCountry(db: mongo.Db): Promise<Country> {
   const country = {
     name: "Allemangne",

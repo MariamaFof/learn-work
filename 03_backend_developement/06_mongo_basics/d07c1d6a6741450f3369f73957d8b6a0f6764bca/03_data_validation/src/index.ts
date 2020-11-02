@@ -1,9 +1,10 @@
 import * as mongo from "mongodb";
+import { createBooksCollection } from "./createBooksCollection";
+// import { createMoviesCollection } from "./createMoviesCollection";
 
 import { showCollections } from "./showCollections";
 
-const databaseUrl =
-  "mongodb://mongo-basics-app:password@localhost:27017/mongo-basics";
+const databaseUrl = "mongodb://mongo-basics-app:password@localhost:27017/mongo-basics";
 
 const options = { useNewUrlParser: true, useUnifiedTopology: true };
 
